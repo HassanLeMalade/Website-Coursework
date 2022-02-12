@@ -18,6 +18,7 @@ a{
   /* used rem not px to make website responsive */
  margin: 0 auto;
  padding:0 2.2rem ;
+ 
 }
 
 header{
@@ -64,8 +65,7 @@ header{
 
 .iPhone-13-Pro{
   background: url("images/hero/iPhone-13-Pro/iphone_13_pro_large.jpg");
- 
-
+  border-top: none;
 }
 
 .hero{
@@ -73,10 +73,15 @@ header{
   background-size: auto 73.6rem;
   background-position: center;
   background-repeat: no-repeat;
- 
+  /* borders top and bottom */
+  border-top: .6rem solid #fff;
+  border-bottom:.6rem solid #fff;
   
 }
 
+
+
+/* title default = white font */
 .title{
   color: #fff;
   text-align: center;
@@ -150,6 +155,15 @@ header{
   background-size: auto 7.8rem;
   margin-top: 1.6rem;
 }
+
+
+.Earphone{
+  background: url("images/hero/Earphone/earphone.jpg") no-repeat;
+  background-size: 100%;
+  
+}
+
+
 
 /**************************************************************************************************/
 /* CONTACT US PAGE */
