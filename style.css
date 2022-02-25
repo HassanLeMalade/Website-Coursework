@@ -265,6 +265,10 @@ textarea.contact-form-text{
 .contact-form-btn:hover{
   background: #2980b9;
 }
+
+.contact-paragraph{
+  margin: 5px;
+}
 /* CONTACT US PAGE */
 /**************************************************************************************************/
 
