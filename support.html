@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html class="jon" lang="en" >
+<html  lang="en" >
   <head>
     <meta charset="utf-8">
     <title>Support</title>
     <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
     
   </head>
   <body class="contact-body">
@@ -11,30 +12,26 @@
       <div class="container">
           <nav class="nav">
               <ul class="nav-list">
-                  <!-- ADD NAV ICON LATER -->
+                  
                   <li class="nav-item">
-                    <a href="index.html" class="nav-link">Home</a>
-                 </li>
-                  <li class="nav-item">
-                      <a href="#" class="nav-link">Laptops</a>
+                      <a href="index.html" class="nav-link">Home</a>
                   </li>
                   <li class="nav-item">
-                      <a href="#" class="nav-link">Tablets</a>
+                      <a href="laptop.html" class="nav-link">Laptops</a>
                   </li>
+                 
                   <li class="nav-item">
-                      <a href="#" class="nav-link">Phones</a>
+                      <a href="phone.html" class="nav-link">Phones</a>
                   </li>
+                  
                   <li class="nav-item">
-                      <a href="#" class="nav-link">TV</a>
-                  </li>
-                  <li class="nav-item">
-                      <a href="#" class="nav-link">Accessories</a>
+                      <a href="accesories.html" class="nav-link">Accessories</a>
                   </li>
                   <li class="nav-item">
                       <a href="support.html" class="nav-link">Support</a>
                   </li>
                   <li class="nav-item">
-                      <a href="#" class="nav-link">About us</a>
+                      <a href="about-us.html" class="nav-link">About us</a>
                   </li>
                   <!-- search button -->
                   <li class="nav-item">
@@ -48,17 +45,18 @@
   <div class="contact-section">
     <div class="contact-box">
       <h1>Contact Us</h1>
-      <p id="contact-paragraph">Email us any questions or inquiries or call 5999-9999.We would be happy to answer your questions and set up a meeting with you.</p>
+      <p class="contact-paragraph">Email us any questions or inquiries or call 5999-9999.</p>
+      <p class="contact-paragraph">We would be happy to set up a meeting with you.</p>
     </div>
 
   
-    <div class="border"></div>
+    
     <form class="contact-form" action="" method="post">
-      <input type="text" class="contact-form-text" placeholder="Your name">
-      <input type="email" class="contact-form-text" placeholder="Your email">
-      <input type="text" class="contact-form-text" placeholder="Your phone">
-      <textarea class="contact-form-text" placeholder="Your message"></textarea>
-      <input type="submit" class="contact-form-btn" value="Send">
+      <input type="text" id="txt_name" class="contact-form-text" placeholder="Your name">
+      <input type="email" id="txt_email" class="contact-form-text" placeholder="Your email">
+      <input type="text"  id="txt_phone" class="contact-form-text" placeholder="Your phone">
+      <textarea id="txt_message" class="contact-form-text" placeholder="Your message"></textarea>
+      <input type="submit" onclick=" return validate()" class="contact-form-btn" value="Send">
     </form>
   </div>
 
