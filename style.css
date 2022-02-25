@@ -171,8 +171,14 @@ header{
 width: 50vw;
 height: 60rem;
 
+
 }
 
+.main-griditem:hover{
+  filter: brightness(75%);
+  transform: translate(0px, -15px);
+  transition: .6s;
+}
 
 #hero-grid-airpod{
   background: url("images/hero/Earphone/airpodf.jpg") center no-repeat;
