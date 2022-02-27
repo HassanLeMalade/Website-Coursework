@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            top: 0px;
+
+        }
+        body
+        {
+            min-height: 100vh; /*vh: relative length metric similar rem*/
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f1f1f1;
+        }
+        .about
+        {
+            background: url("images/about_us-images/about_background2.jpg") no-repeat left;
+            background-size: 55%;
+            background-color: rgb(209, 233, 255);
+            overflow: hidden;
+            padding: 100px 0;
+        }
+        .inner-section
+        {
+            width: 55%;
+            float: right;
+            color: white;
+            background-color: darkslategray;
+            padding: 140px;
+            box-shadow: 13px 12px 8px rgba(0,0,0,0.3);
+        }
+        .inner-section h1
+        {
+            margin-bottom: 30px;
+            font-size: 30px;
+            font-weight: 900;
+        }
+        .text
+        {
+            font-size: 15px;
+            color: white;
+            line-height: 30px;
+            text-align: justify;
+            margin-bottom: 40px;
+        }
+        .skills button
+        {
+            font-size: 22px;
+            text-align: center;
+            letter-spacing: 2px;
+            border: none;
+            border-radius: 20px;
+            padding: 8px;
+            width: 200px;
+            background-color: #00999c;
+            color: white;
+            cursor: pointer;
+        }
+        .skills button:hover
+        {
+            transition: 1s;
+            background-color: #ecf5f5;
+            color: #00999c;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="laptop.html" class="nav-link">Laptops</a>
+                    </li>
+                   
+                    <li class="nav-item">
+                        <a href="phone.html" class="nav-link">Phones</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a href="accesories.html" class="nav-link">Accessories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="support.html" class="nav-link">Support</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about-us.html" class="nav-link">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Registration_Form.html" class="nav-link">Register</a>
+                    </li>
+                    <!-- search button -->
+                    <li class="nav-item">
+                        <a href="#" class="nav-link nav-search"></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="about">
+        <div class="inner-section">
+            <h1>About Us</h1>
+            <p class="text">
+                TechMania specializes in selling electronic products such as computers and smartphones at affordable prices with international shipping. We 
+                also offer other services such as repairing devices and modifications of certain brands of smartphones or consoles.<br>
+
+                Our company was first set up in early 2017 in Mauritius. Currently, we have two franchises around the globe; one in America
+                and another one in China.<br>
+
+                At TechMania, we firmly believe that our mission is to interconnect the world by providing high-end devices to people regardless
+                of their financial background. Hence, throughout years of trial and error, we have been able to devise and refine our business model
+                in such a way to allow us to do so. 
+            </p>
+            <div class="skills">
+                <button>Contact Us</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
